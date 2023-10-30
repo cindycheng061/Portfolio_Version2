@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cindy's Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header start-->
+    <header>
+        <div class="nav-logo">
+            <p>Cin<span class="dy">dy.</span></p>
+        </div>
+        <ul class="nav-links"> 
+            <a href="#">Home</a>
+            <a href="#about">About</a> 
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a> 
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+    <!-- Banner section -->
+    <section>
+    <div class="banner">
+        <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="homepage background image">
+        <div class="banner-text">
+            <!-- <h1>Hello.<br></h1> -->
+            <div class="waviy">
+            <span style="--i:1">H</span>
+            <span style="--i:2">E</span>
+            <span style="--i:3">L</span>
+            <span style="--i:4">L</span>
+            <span style="--i:5">0</span>
+            <span style="--i:6">.</span>
+            </div>
+            <div class="dynamic-text">
+                <h2>From Zero to Code Hero: <span class="she">She</span><span class="codes">{Codes}</span> Graduate Unleashing Digital Possibilities!</h2>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="main">
+            <img src="headshot1.png" alt="headshot image">
+            <div class="about-text">
+                <h2>About me</h2>
+                <h5>Woman pursing <span>- software development</span></h5>
+                <p>In the past six months, my journey with She Codes has been an exhilarating learning adventure. I've delved into HTML/CSS, Python, Django/DRF, JS and React, immersing myself in a fast-paced and challenging process. 
+                </br></br>Originally from China, I began my career as an electrical maintenance engineer at a nuclear power station, honing my problem-solving skills. After moving to Australia, I transitioned into the telecommunications industry as a field service technician, where I continued to tackle technical challenges. The satisfaction of hands-on work and the pride in finding solutions have always fueled my passion. 
+                </br></br>Being part of the SheCodes community has been a rewarding experience. Despite the program's intensity, I've gained confidence, skills, new friends, and invaluable opportunities. I'm well aware that the road ahead will be challenging, but I'm committed to continuous learning and unwavering coding practice. SheCodes has become an integral part of my life, offering a unique opportunity to excel in the tech world. This experience has fueled tremendous growth, and I eagerly anticipate channeling this passion and skill into my future career.
+            </p>
+            <a href="mailto:cindycheng61@gmail.com" class="btn" type="button">Let's talk</a>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Project section -->
+    <section class="project" id="project">
+       <div class="title">
+           <h2>Projects</h2>
+       </div>
+       <div class="box">
+        <div class="card">
+            <i class="fa-solid fa-terminal"></i>
+            <h5>DRF & REACT Project</h5>
+            <div class="project-text">
+                <p>The crowdfunding project is separated into two distinct sub-projects: APIs built using the Django RestFramework and a website built using React.</p>
+                <p style="text-align: center;"><a class="btn" href="https://gift-a-seed.netlify.app/ ">Explore</a></p>
+            </div>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-user-plus"></i>
+            <h5>Group Project</h5>
+            <div class="project-text">
+                <p>In the group project, I enhanced teamwork, communication, and time management, meeting PO's requirements. We navigated from planning to GitHub collaboration, ensuring success.</p>
+                <p style="text-align: center;"><a class="btn" href="https://shimmering-hamster-5d2c1a.netlify.app/ ">Explore</a></p>
+            </div>
+        </div>
+       </div>
+    </section>
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>
+        Innovative Mindset, Willing to Learn and Contribute, Valuable Team Player
+      </h2>
+      <a href="mailto:cindycheng61@gmail.com" class="btn" type="button" id="showFormButton">Contact</a>
+      <form id="myForm" class="display-none">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <button type="button" id="submitButton">Submit</button>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/xiaoxin-cheng-6a8155117/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/cindycheng061"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <p>Copy right by Cindy Cheng in 2023💖.</p>
+    </footer>
+</body>
+
+<script src="./js/script.js"></script>
+</html>
